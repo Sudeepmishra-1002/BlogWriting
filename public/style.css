@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(40, 5, 239);
+}
+
+.post {
+    background-color: grey;
+    color: greenyellow;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+.username {
+    font-style: italic;
+}
+
+.topic_name {
+    writing-mode: horizontal-tb;
+}
+
+a {
+    text-decoration: none;
+    color: #4f46e5;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======= SIGNUP PAGE SPECIFIC STYLES ======= */
+
+.signup-page {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.signup-box h2 {
+    text-align: center;
+    color: #333;
+}
+
+.signup-box label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.signup-box input:focus {
+    border-color: #4f46e5;
+}
+
+.password-toggle {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.password-toggle input {
+    margin-right: 5px;
+}
+
+.signup-box button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-box button:hover {
+    background-color: #3730a3;
+}
